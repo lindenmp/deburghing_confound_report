@@ -10,7 +10,7 @@
     pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install
 
 	# Statistics
-	pip install scipy sklearn statsmodels confounds neuropredict
+	pip install scipy sklearn statsmodels pyradigm neuropredict confounds
 
     cd /Users/lindenmp/Google-Drive-Penn/work/research_projects/deburghing_confound_report
     conda env export > environment.yml
